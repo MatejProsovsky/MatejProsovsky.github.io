@@ -1,0 +1,92 @@
+.menu {
+    position: absolute;
+    visibility: visible;
+}
+
+.menu__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 1;
+}
+
+.menu__overlay:hover {
+    opacity: 0.7;
+}
+
+.popUpMenuButtom {
+    visibility: hidden;
+}
+
+.popUpMenu {
+    position: absolute;
+    visibility: hidden;
+}
+.header {
+    background-color: black;
+    padding: 2px;
+    width: 97.4vw;
+    text-align: center;
+    color: cyan;
+    left: 400px;
+}
+.backBlack {
+    background-color: black;
+    height: 200%;
+    width: 97.67vw;
+    position: absolute;
+}
+.pageText {
+    position: absolute;
+    top: 20px;
+    color: #c5c6c7;
+    font-size: 20px;
+}
+
+.menuText {
+    position: relative;
+    text-align: center;
+    color: cyan;
+}
+.centeredH {
+    position: absolute;
+    font-size: 25px;
+    transform: translate(30%, -200%);
+}
+.centeredHM{
+    position: absolute;
+    font-size: 40px;
+    top: 0%;
+    left: 0%;
+    transform: translate(25%, 120%);
+}
+.centeredCPUM {
+    position: absolute;
+    font-size: 40px;
+    top: 150px;
+    left: 0%;
+    transform: translate(15%, 110%);
+}
+.centeredGPUM {
+    position: absolute;
+    font-size: 40px;
+    top: 300px;
+    left: 0%;
+    transform: translate(70%, 120%);
+}
+.centeredRAMM {
+    position: absolute;
+    font-size: 40px;
+    top: 452px;
+    left: 0%;
+    transform: translate(20%, 110%);
+}
+.centeredOTHM{
+    position: absolute;
+    font-size: 40px;
+    top: 605px;
+    left: 0%;
+    transform: translate(13%, 110%);
+}
+
