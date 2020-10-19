@@ -24,17 +24,17 @@
     visibility: hidden;
 }
 .header {
-    background-color: black;
-    padding: 2px;
-    width: 97.4vw;
-    text-align: center;
     color: cyan;
-    left: 400px;
+    font-size: 40px;
+    position: absolute;
+    left: 30vw;
 }
-.backBlack {
+.textArea {
+    top: 2px;
     background-color: black;
     height: 200%;
-    width: 97.67vw;
+    width: 100%;
+    left: 2px;
     position: absolute;
 }
 .pageText {
