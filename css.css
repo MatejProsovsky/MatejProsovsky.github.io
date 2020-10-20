@@ -13,8 +13,8 @@
 .menuline {
     background-color: cyan;
     width: 2px;
-    height: 1960px;
-    left: 160px;
+    height: 2160px;
+    left: 165px;
     position: absolute;
 }
 
@@ -41,8 +41,8 @@
     top: 2px;
     background-color: black;
     height: 300%;
-    width: 99vw;
-    left: 2px;
+    width: 100vw;
+    left:2px;
     position: absolute;
 }
 

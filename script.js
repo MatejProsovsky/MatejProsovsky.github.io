@@ -4,7 +4,7 @@ function menuBar() {
     let getMenuVisib = document.querySelector(".menu");
     let getPopUpMenuVisib = document.querySelector(".popUpMenuButtom")
     let getPopMenuVisib = document.querySelector(".popUpMenu");
-    if (w < 800 || h < 400) {
+    if (w < 760 || h < 400) {
         getMenuVisib.style.visibility = "hidden";
         getPopUpMenuVisib.style.visibility = "visible";
     } else {
