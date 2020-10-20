@@ -10,6 +10,13 @@
     display: flex;
     opacity: 1;
 }
+.menuline {
+    background-color: cyan;
+    width: 2px;
+    height: 1960px;
+    left: 160px;
+    position: absolute;
+}
 
 .menu__overlay:hover {
     opacity: 0.7;
@@ -28,14 +35,26 @@
     font-size: 40px;
     position: absolute;
     left: 30vw;
+    top: -15px;
 }
 .textArea {
     top: 2px;
     background-color: black;
-    height: 200%;
+    height: 300%;
     width: 100%;
     left: 2px;
     position: absolute;
+}
+
+.textBorder {
+    background-color: #1f2833;
+    color: #c5c6c7;
+    width: 40vw;
+    left: 25vw;
+    border: 5px solid cyan;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
 }
 .pageText {
     position: absolute;
