@@ -1,0 +1,256 @@
+
+.text-center{
+    color:#c5c6c7;
+    text-transform:uppercase;
+    font-size: 28px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+
+
+.box{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius:3px;
+    padding:70px 100px;
+    border: 2px solid cyan;
+}
+.input-container{
+    position:relative;
+    margin-bottom:25px;
+}
+.input-container label{
+    position:absolute;
+    top:-5px;
+    left:0px;
+    font-size:18px;
+    color:#c5c6c7;
+    pointer-event:none;
+    transition: all 0.5s ease-in-out;
+}
+.input-container input{
+    border:0;
+    border-bottom:1px solid #555;
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:14px;
+    color:#c5c6c7;
+}
+.input-container input:focus{
+    border:none;
+    outline:none;
+    background:transparent;
+    border-bottom:1px solid cyan;
+
+}
+.btn{
+    color:black;
+    background-color:cyan;
+    outline: none;
+    border: 0;
+    padding:10px 20px;
+    text-transform:uppercase;
+    margin-top:50px;
+    border-radius:2px;
+    cursor:pointer;
+    position:relative;
+    left: 30px;
+}
+
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+    top:-12px;
+    font-size:12px;
+    background:transparent;
+}
+
+.prof {
+    margin-bottom:25px;
+    font-size:18px;
+    color:#c5c6c7;
+}
+
+.menu {
+
+    visibility: visible;
+
+}
+
+.menu2 {
+    position: absolute;
+}
+
+a:link {
+    color: #c5c6c7;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c5c6c7;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+    background-color: transparent;
+}
+
+a:active {
+    color: #c5c6c7;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.logAndReg {
+    position: absolute;
+    right: -97vw;
+    background-color: #1f2833;
+    border: 2px solid cyan;
+    font-size: 20px;
+    color: #c5c6c7;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 7px;
+}
+
+.wrongInput {
+    position: absolute;
+    background-color: #1f2833;
+    border: 2px solid cyan;
+    font-size: 15px;
+    color: orangered;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 7px;
+}
+
+.logAndRegS {
+    position: absolute;
+    background-color: #1f2833;
+    border: 2px solid cyan;
+    font-size: 12px;
+    color: #c5c6c7;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 5px;
+    left: 79vw;
+}
+
+.log {
+
+    position: absolute;
+    background-color: #1f2833;
+    border: 2px solid cyan;
+    font-size: 2vw;
+    color: #c5c6c7;
+    padding: 3px 5px;
+}
+
+.menu__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 1;
+}
+.menuline {
+    background-color: cyan;
+    width: 2px;
+    height: 2160px;
+    left: 165px;
+    position: absolute;
+}
+
+.menu__overlay:hover {
+    opacity: 1;
+}
+
+.popUpMenuButtom {
+    visibility: hidden;
+}
+
+.popUpMenu {
+    position: absolute;
+    visibility: hidden;
+
+}
+.header {
+    width: 40vw;
+    color: cyan;
+    font-size: 4.5vw;
+    position: absolute;
+    left: 17vw;
+    top: 2vw;
+}
+
+.textBorder {
+    background-color: #1f2833;
+    color: #c5c6c7;
+    border: 5px solid cyan;
+    width: 56vw;
+    left: 16vw;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+.pageText {
+    position: absolute;
+    top: 20px;
+    color: #c5c6c7;
+    font-size: 20px;
+}
+
+.menuText {
+    position: relative;
+    text-align: center;
+    color: cyan;
+}
+.centeredH {
+    position: absolute;
+    font-size: 25px;
+    transform: translate(30%, -200%);
+}
+.centeredHM{
+    position: absolute;
+    font-size: 40px;
+    top: 0%;
+    left: 0%;
+    transform: translate(25%, 120%);
+}
+.centeredCPUM {
+    position: absolute;
+    font-size: 40px;
+    top: 150px;
+    left: 0%;
+    transform: translate(15%, 110%);
+}
+.centeredGPUM {
+    position: absolute;
+    font-size: 40px;
+    top: 300px;
+    left: 0%;
+    transform: translate(70%, 120%);
+}
+.centeredRAMM {
+    position: absolute;
+    font-size: 40px;
+    top: 452px;
+    left: 0%;
+    transform: translate(20%, 110%);
+}
+.centeredOTHM{
+    position: absolute;
+    font-size: 40px;
+    top: 605px;
+    left: 0%;
+    transform: translate(13%, 110%);
+}
+
